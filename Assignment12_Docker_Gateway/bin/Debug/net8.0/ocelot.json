@@ -1,0 +1,28 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Customers",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.17.0.1",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/CustomerService",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT" ]
+    },
+    {
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.17.0.1",
+          "Port": 3000
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Customers/{id}",
+      "DownstreamScheme": "http",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
+      "UpstreamPathTemplate": "/apigateway/CustomerService/{id}"
+    }
+  ]
+}

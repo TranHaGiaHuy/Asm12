@@ -1,0 +1,6 @@
+@Assignment12_Docker_Gateway_HostAddress = http://localhost:5035
+
+GET {{Assignment12_Docker_Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

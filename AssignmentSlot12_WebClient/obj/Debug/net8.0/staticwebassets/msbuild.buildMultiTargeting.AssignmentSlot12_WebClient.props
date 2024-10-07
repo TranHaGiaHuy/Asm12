@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AssignmentSlot12_WebClient.props" />
+</Project>

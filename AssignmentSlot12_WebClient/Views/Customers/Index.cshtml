@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Customer_Service.Models.Customer>
+
+<h1>Customer Index</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+@{
+    var message = TempData["Result"] as string;
+}
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div id="notification" class="alert alert-info">
+        @message
+    </div>
+}
+
+<script>
+    setTimeout(function () {
+        var notification = document.getElementById('notification');
+        if (notification) {
+            notification.style.display = 'none';
+        }
+    }, 2000);
+</script>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Username
+            </th>
+            <th>
+                Full Name
+            </th>
+            <th>
+                Birthday
+            </th>
+            <th>
+                Gender
+            </th>
+            <th>
+                Phone
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Address
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <span>@item.Username</span>
+                </td>
+                <td>
+                    <span>@item.Fullname</span>
+                </td>
+                <td>
+                    <span>@(item.Gender=="Male"?"Male" : "Female")</span>
+                </td>
+                <td>
+                    <span>@item.Birthday</span> <!-- Chỉ lấy ngày -->
+                </td>
+                <td>
+                    <span>@item.Phone</span>
+                </td><td>
+                    <span>@item.Email</span>
+                </td><td>
+                    <span>@item.Address</span>
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Username">Edit</a> |
+                    <a asp-action="Detail" asp-route-id="@item.Username">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Username">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

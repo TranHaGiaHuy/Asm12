@@ -1,0 +1,606 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\views\\customers\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\views\\customers\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignment12_docker_gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|solutionrelative:assignment12_docker_gateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignment12_docker_gateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|solutionrelative:assignment12_docker_gateway\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignment12_docker_gateway\\assignment12_docker_gateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|solutionrelative:assignment12_docker_gateway\\assignment12_docker_gateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignment12_docker_gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|solutionrelative:assignment12_docker_gateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\customer_service\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|solutionrelative:customer_service\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\customer_service\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|solutionrelative:customer_service\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\customer_service\\models\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|solutionrelative:customer_service\\models\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\customer_service\\customer_service.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|solutionrelative:customer_service\\customer_service.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\customer_service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|solutionrelative:customer_service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\customer_service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|solutionrelative:customer_service\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Migrations\\20241007041929_InialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Customer_Service\\Migrations\\20241007041929_InialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\customer_service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|solutionrelative:customer_service\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\customer_service\\customer_service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|solutionrelative:customer_service\\customer_service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignment12_docker_gateway\\assignment12_docker_gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|solutionrelative:assignment12_docker_gateway\\assignment12_docker_gateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\assignmentslot12_webclient.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\assignmentslot12_webclient.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\assignmentslot12_webclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\assignmentslot12_webclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignmentslot12_webclient\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EF1C2B4C-6B3F-4726-9155-872585EF0D58}|AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj|solutionrelative:assignmentslot12_webclient\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignment12_docker_gateway\\assignment12_docker_gateway.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|solutionrelative:assignment12_docker_gateway\\assignment12_docker_gateway.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\assignment12_docker_gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82254841-0C9E-4B15-80A2-55502A452F34}|Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj|solutionrelative:assignment12_docker_gateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Migrations\\20241007030759_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Customer_Service\\Migrations\\20241007030759_InitialDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|d:\\fa24\\prn231\\assignmentslot12_se1701_huythgce170636\\customer_service\\customer_service.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{88BAA940-BFD4-44BB-B05B-3128256E9FF4}|Customer_Service\\Customer_Service.csproj|solutionrelative:customer_service\\customer_service.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 238,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Dockerfile",
+              "RelativeDocumentMoniker": "Assignment12_Docker_Gateway\\Dockerfile",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Dockerfile",
+              "RelativeToolTip": "Assignment12_Docker_Gateway\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-07T04:28:01.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\ocelot.json",
+              "RelativeDocumentMoniker": "Assignment12_Docker_Gateway\\ocelot.json",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\ocelot.json",
+              "RelativeToolTip": "Assignment12_Docker_Gateway\\ocelot.json",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwBcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T03:12:45.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Customer_Service\\Models\\Customer.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Models\\Customer.cs",
+              "RelativeToolTip": "Customer_Service\\Models\\Customer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:47:33.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "Customer_Service\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "Customer_Service\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAUwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:08:59.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment12_Docker_Gateway\\Program.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Program.cs",
+              "RelativeToolTip": "Assignment12_Docker_Gateway\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:11:03.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Assignment12_Docker_Gateway.http",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.http",
+              "RelativeDocumentMoniker": "Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.http",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.http",
+              "RelativeToolTip": "Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-07T03:20:43.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\Controllers\\CustomersController.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwBkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:37:53.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Views\\Customers\\Login.cshtml",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\Views\\Customers\\Login.cshtml",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Views\\Customers\\Login.cshtml",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\Views\\Customers\\Login.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T04:22:33.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CustomerDbContext.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Models\\CustomerDbContext.cs",
+              "RelativeDocumentMoniker": "Customer_Service\\Models\\CustomerDbContext.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Models\\CustomerDbContext.cs",
+              "RelativeToolTip": "Customer_Service\\Models\\CustomerDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvxIAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:59:13.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Customer_Service.http",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Customer_Service.http",
+              "RelativeDocumentMoniker": "Customer_Service\\Customer_Service.http",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Customer_Service.http",
+              "RelativeToolTip": "Customer_Service\\Customer_Service.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-07T04:26:11.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Program.cs",
+              "RelativeDocumentMoniker": "Customer_Service\\Program.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Program.cs",
+              "RelativeToolTip": "Customer_Service\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:06:39.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Dockerfile",
+              "RelativeDocumentMoniker": "Customer_Service\\Dockerfile",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Dockerfile",
+              "RelativeToolTip": "Customer_Service\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-07T03:27:00.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Models\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\Models\\LoginDTO.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Models\\LoginDTO.cs",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\Models\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:23:45.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Views\\Customers\\Index.cshtml",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\Views\\Customers\\Index.cshtml",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Views\\Customers\\Index.cshtml",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\Views\\Customers\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T03:43:20.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20241007041929_InialDB.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Migrations\\20241007041929_InialDB.cs",
+              "RelativeDocumentMoniker": "Customer_Service\\Migrations\\20241007041929_InialDB.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Migrations\\20241007041929_InialDB.cs",
+              "RelativeToolTip": "Customer_Service\\Migrations\\20241007041929_InialDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T04:19:29.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\appsettings.json",
+              "RelativeDocumentMoniker": "Customer_Service\\appsettings.json",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\appsettings.json",
+              "RelativeToolTip": "Customer_Service\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T03:06:11.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer_Service",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Customer_Service.csproj",
+              "RelativeDocumentMoniker": "Customer_Service\\Customer_Service.csproj",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Customer_Service.csproj",
+              "RelativeToolTip": "Customer_Service\\Customer_Service.csproj",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T02:58:31.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Assignment12_Docker_Gateway",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj",
+              "RelativeDocumentMoniker": "Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj",
+              "RelativeToolTip": "Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T03:20:37.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:53:02.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T04:00:00.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AssignmentSlot12_WebClient",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T03:59:55.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AssignmentSlot12_WebClient",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\AssignmentSlot12_WebClient.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T03:59:49.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Program.cs",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\Program.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Program.cs",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:42:43.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\appsettings.json",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\appsettings.json",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\appsettings.json",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T03:42:42.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AssignmentSlot12_WebClient\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\AssignmentSlot12_WebClient\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "AssignmentSlot12_WebClient\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T03:42:41.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Assignment12_Docker_Gateway",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj",
+              "RelativeDocumentMoniker": "Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj",
+              "RelativeToolTip": "Assignment12_Docker_Gateway\\Assignment12_Docker_Gateway.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T03:20:41.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\appsettings.json",
+              "RelativeDocumentMoniker": "Assignment12_Docker_Gateway\\appsettings.json",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Assignment12_Docker_Gateway\\appsettings.json",
+              "RelativeToolTip": "Assignment12_Docker_Gateway\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T03:18:51.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20241007030759_InitialDB.cs",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Migrations\\20241007030759_InitialDB.cs",
+              "RelativeDocumentMoniker": "Customer_Service\\Migrations\\20241007030759_InitialDB.cs",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Migrations\\20241007030759_InitialDB.cs",
+              "RelativeToolTip": "Customer_Service\\Migrations\\20241007030759_InitialDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:07:59.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Customer_Service",
+              "DocumentMoniker": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Customer_Service.csproj",
+              "RelativeDocumentMoniker": "Customer_Service\\Customer_Service.csproj",
+              "ToolTip": "D:\\FA24\\PRN231\\AssignmentSlot12_SE1701_HuyTHGCE170636\\Customer_Service\\Customer_Service.csproj",
+              "RelativeToolTip": "Customer_Service\\Customer_Service.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T02:46:13.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 162,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
