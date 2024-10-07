@@ -251,3 +251,4 @@ D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\Customer_Service\obj\Debug
 D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\Customer_Service\obj\Debug\net8.0\Customer_Service.pdb
 D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\Customer_Service\obj\Debug\net8.0\Customer_Service.genruntimeconfig.cache
 D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\Customer_Service\obj\Debug\net8.0\ref\Customer_Service.dll
+D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\Customer_Service\obj\Debug\net8.0\Customer_Service.sourcelink.json

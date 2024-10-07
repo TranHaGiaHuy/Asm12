@@ -25,7 +25,7 @@
         }
     }, 2000);
 </script>
-
+<form asp-action="Delete" method="get">
 <table class="table">
     <thead>
         <tr>
@@ -51,6 +51,7 @@
                 Address
             </th>
             <th></th>
+            <th>Select to delete</th>
         </tr>
     </thead>
     <tbody>
@@ -77,11 +78,15 @@
                     <span>@item.Address</span>
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Username">Edit</a> |
-                    <a asp-action="Detail" asp-route-id="@item.Username">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Username">Delete</a>
+                    <a asp-action="Edit" asp-route-username="@item.Username">Edit</a> |
+                    <a asp-action="Details" asp-route-username="@item.Username">Details</a> |
+                </td>
+                <td>
+                    <input type="checkbox" name="selectedUsernames" value="@item.Username" />
                 </td>
             </tr>
         }
     </tbody>
 </table>
+    <input type="submit" value="Delete Selected" class="btn btn-danger" />
+</form>

@@ -25,6 +25,37 @@ namespace Assignment1WebClient.Controllers
             client.DefaultRequestHeaders.Accept.Add(contentType);
             ProductApiUrl = "http://localhost:4000/apigateway/CustomerService";
         }
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(Customer customer)
+        {
+            Console.WriteLine("Da vo");
+            if (ModelState.IsValid)
+            {
+                return View(customer);
+            }
+            var loginData = new { Username = customer.Username, Password = customer.Password };
+            var jsonContent = new StringContent(JsonSerializer.Serialize(loginData), Encoding.UTF8, "application/json");
+            HttpResponseMessage response = await client.PostAsync($"{ProductApiUrl}/login", jsonContent);
+            if (response.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index", "Customers");
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid username or password.");
+            }
+            return View(customer);
+        }
+
+
+
+
+
         // GET: Customers
         public async Task<IActionResult> Index()
         {
@@ -40,7 +71,7 @@ namespace Assignment1WebClient.Controllers
         // GET: Customers/Details/5
         public async Task<IActionResult> Details(string username)
         {
-
+            Console.WriteLine($"Calling API: {ProductApiUrl}/{username}");
             HttpResponseMessage response = await client.GetAsync($"{ProductApiUrl}/{username}");
             if (response.IsSuccessStatusCode)
             {
@@ -49,12 +80,23 @@ namespace Assignment1WebClient.Controllers
                 {
                     PropertyNameCaseInsensitive = true
                 };
-                Console.WriteLine(strData);
-                Customer customer = JsonSerializer.Deserialize<Customer>(strData, options);
-                return View(customer);
+
+                Console.WriteLine(strData); 
+                try
+                {
+                    Customer customer = JsonSerializer.Deserialize<Customer>(strData, options);
+                    return View(customer);
+                }
+                catch (JsonException ex)
+                {
+                    // Handle deserialization error
+                    Console.WriteLine(ex.Message);
+                    return BadRequest("Error deserializing data.");
+                }
             }
             return NotFound();
         }
+
 
         // GET: Customers/Create
         public IActionResult Create()
@@ -113,17 +155,22 @@ namespace Assignment1WebClient.Controllers
             {
                 return NotFound();
             }
-
-            if (ModelState.IsValid)
-            {
+            Console.WriteLine("Hello");
+           
+                Console.WriteLine("Hello2");
+            customer.Password="1";
                 var jsonContent = new StringContent(JsonSerializer.Serialize(customer), Encoding.UTF8, "application/json");
                 HttpResponseMessage response = await client.PutAsync($"{ProductApiUrl}/{username}", jsonContent);
                 if (response.IsSuccessStatusCode)
                 {
+                    Console.WriteLine("Hello3");
+
                     return RedirectToAction(nameof(Index));
                 }
-            }
-            return View(customer);
+            
+            Console.WriteLine("Hello4");
+
+            return View();
         }
 
         // GET: Customers/Delete/5

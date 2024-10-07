@@ -13,16 +13,28 @@
       "UpstreamHttpMethod": [ "GET", "POST", "PUT" ]
     },
     {
+      "DownstreamPathTemplate": "/api/Customers/login",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "172.17.0.1",
           "Port": 3000
         }
       ],
-      "DownstreamPathTemplate": "/api/Customers/{id}",
+      "UpstreamPathTemplate": "/apigateway/CustomerService/login",
+      "UpstreamHttpMethod": [ "GET", "POST"]
+    },
+    {
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "172.17.0.1",
+          "Port": 3000
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Customers/{username}",
       "DownstreamScheme": "http",
       "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ],
-      "UpstreamPathTemplate": "/apigateway/CustomerService/{id}"
+      "UpstreamPathTemplate": "/apigateway/CustomerService/{username}"
     }
   ]
 }

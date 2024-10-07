@@ -1,0 +1,71 @@
+﻿@model List<Customer_Service.Models.Customer>
+
+@{
+    ViewData["Title"] = "Confirm Deletion";
+}
+
+<h2>Confirm Deletion</h2>
+
+<p>Are you sure you want to delete the following customers?</p>
+<ul class="list-group">
+    @foreach (var customer in Model)
+    {
+        <li class="list-group-item">
+            <dl class="row">
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(m => customer.Username)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(m => customer.Username)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(m => customer.Fullname)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(m => customer.Fullname)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(m => customer.Gender)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(m => customer.Gender)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(m => customer.Birthday)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(m => customer.Birthday) <!-- Format the date -->
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(m => customer.Address)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(m => customer.Address)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(m => customer.Phone)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(m => customer.Phone)
+                </dd>
+                <dt class="col-sm-3">
+                    @Html.DisplayNameFor(m => customer.Email)
+                </dt>
+                <dd class="col-sm-9">
+                    @Html.DisplayFor(m => customer.Email)
+                </dd>
+            </dl>
+            <hr />
+        </li>
+    }
+</ul>
+
+<form asp-action="DeleteMultiple" method="post" onsubmit="return confirm('Are you sure you want to delete these customers?');">
+    @foreach (var customer in Model)
+    {
+        <input type="hidden" name="selectedUsernames" value="@customer.Username" />
+    }
+    <button type="submit" class="btn btn-danger">Confirm Delete</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

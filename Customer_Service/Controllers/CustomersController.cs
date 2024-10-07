@@ -60,25 +60,25 @@ namespace Customer_Service.Controllers
         }
 
         // GET: api/Customers/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Customer>> GetCustomer(string id)
+        [HttpGet("{username}")]
+        public async Task<ActionResult<Customer>> GetCustomer(string username)
         {
-            var customer = await _context.Customers.FindAsync(id);
+            var customer = await _context.Customers.FindAsync(username);
 
             if (customer == null)
             {
                 return NotFound();
             }
-
+            customer.Password = "";
             return customer;
         }
 
         // PUT: api/Customers/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutCustomer(string id, Customer customer)
+        [HttpPut("{username}")]
+        public async Task<IActionResult> PutCustomer(string username, Customer customer)
         {
-            if (id != customer.Username)
+            if (username != customer.Username)
             {
                 return BadRequest();
             }
@@ -91,7 +91,7 @@ namespace Customer_Service.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CustomerExists(id))
+                if (!CustomerExists(username))
                 {
                     return NotFound();
                 }
@@ -126,14 +126,14 @@ namespace Customer_Service.Controllers
                 }
             }
 
-            return CreatedAtAction("GetCustomer", new { id = customer.Username }, customer);
+            return CreatedAtAction("GetCustomer", new { username = customer.Username }, customer);
         }
 
         // DELETE: api/Customers/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteCustomer(string id)
+        [HttpDelete("{username}")]
+        public async Task<IActionResult> DeleteCustomer(string username)
         {
-            var customer = await _context.Customers.FindAsync(id);
+            var customer = await _context.Customers.FindAsync(username);
             if (customer == null)
             {
                 return NotFound();
@@ -145,9 +145,9 @@ namespace Customer_Service.Controllers
             return NoContent();
         }
 
-        private bool CustomerExists(string id)
+        private bool CustomerExists(string username)
         {
-            return _context.Customers.Any(e => e.Username == id);
+            return _context.Customers.Any(e => e.Username == username);
         }
     }
 }

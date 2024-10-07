@@ -275,3 +275,5 @@ D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\AssignmentSlot12_WebClient
 D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\AssignmentSlot12_WebClient\obj\Debug\net8.0\AssignmentSlot12_WebClient.pdb
 D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\AssignmentSlot12_WebClient\obj\Debug\net8.0\AssignmentSlot12_WebClient.genruntimeconfig.cache
 D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\AssignmentSlot12_WebClient\obj\Debug\net8.0\ref\AssignmentSlot12_WebClient.dll
+D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\AssignmentSlot12_WebClient\obj\Debug\net8.0\AssignmentSlot12_WebClient.sourcelink.json
+D:\FA24\PRN231\AssignmentSlot12_SE1701_HuyTHGCE170636\AssignmentSlot12_WebClient\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
